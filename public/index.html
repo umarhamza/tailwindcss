@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="build/tailwind.css">
+</head>
+
+<body class="bg-gray-300">
+    <div class="bg-gray-100 flex">
+        <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full sm:w-8/12 md:w-1/2 lg:py-24 lg:px-12">
+            <div class="xl:max-w-lg xl:ml-auto">
+                <img class="h-10" src="/img/logo.svg" alt="Workation" />
+                <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center sm:hidden"
+                    src="/img/beach-work.jpg" alt="woman on beach">
+                <h1
+                    class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 md:text-4xl lg:text-3xl xl:text-4xl">
+                    You can work from anywhere.
+                    <span class="text-brand-blue lg:block">Take advantage of it</span>
+                </h1>
+                <p class="mt-2 text-gray-600 sm:mt-4 md:text-xl">
+                    Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice
+                    weather even when you're not on vacation.
+                </p>
+                <div class="mt-4 sm:mt-6">
+                    <a href="#" class="btn bg-brand-blue mt-4 lg:mt-0 md:mr-2 w-full md:w-auto text-center text-white shadow-lg md:text-base">Book Your Escape</a>
+                    <br class="md:hidden" />
+                    <a href="#" class="btn btn-gray mt-4 lg:mt-0 w-full md:w-auto shadow-lg text-center md:text-base">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="hidden sm:block sm:w-4/12 md:w-1/2 sm:relative">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="/img/beach-work.jpg"
+                alt="woman on beach">
+        </div>
+    </div>
+
+
+    <div class="max-w-md sm:max-w-full md:max-w-full lg:max-w-6xl mx-auto px-8 lg:py-24 lg:px-12 py-8">
+
+        <div class="text-center">
+            <h2 class="mb-6 text-2xl font-bold text-gray-900 leading-tight sm:mb-4 md:text-3xl lg:text-3xl">
+                Popular destinations</h2>
+            <p class="text-gray-600">A selection of great work-friendly cities with lots to see and explore.</p>
+        </div>
+        <div class="flex flex-wrap py-8 sm:-mx-2">
+
+
+
+
+
+
+
+            <div class="w-full sm:w-6/12 lg:w-4/12 sm:px-2 mb-6">
+                <div class="flex items-stretch h-full rounded-lg bg-white shadow-lg overflow-hidden">
+                    <img class="min-h-full w-32 flex-shrink-0 object-cover object-center" src="/img/chicago.jpg"
+                        alt="Chicago skyline">
+                    <div class="px-4 sm:px-6 py-4 sm:w-auto">
+                        <h3 class="text-lg font-semibold text-gray-800">Chicago</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">$130 / night average</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-indigo-500 hover:text-indigo-400 font-semibold text-xs">Explore
+                                115 properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-6/12 lg:w-4/12 sm:px-2 mb-6">
+                <div class="flex items-stretch h-full rounded-lg bg-white shadow-lg overflow-hidden">
+                    <img class="min-h-full w-32 flex-shrink-0 object-cover object-center" src="/img/toronto.jpg"
+                        alt="Toronto skyline">
+                    <div class="px-4 sm:px-6 py-4 sm:w-auto">
+                        <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">$120 / night average</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-indigo-500 hover:text-indigo-400 font-semibold text-xs">Explore
+                                76 properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-6/12 lg:w-4/12 sm:px-2 mb-6">
+                <div class="flex items-stretch h-full rounded-lg bg-white shadow-lg overflow-hidden">
+                    <img class="min-h-full w-32 flex-shrink-0 object-cover object-center" src="/img/malibu.jpg"
+                        alt="Malibu skyline">
+                    <div class="px-4 sm:px-6 py-4 sm:w-auto">
+                        <h3 class="text-lg font-semibold text-gray-800">Malibu</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">$215 / night average</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-indigo-500 hover:text-indigo-400 font-semibold text-xs">Explore
+                                43 properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full sm:w-6/12 lg:w-4/12 sm:px-2 mb-6">
+                <div class="flex items-stretch h-full rounded-lg bg-white shadow-lg overflow-hidden">
+                    <img class="min-h-full w-32 flex-shrink-0 object-cover object-center" src="/img/seattle.jpg"
+                        alt="Seattle skyline">
+                    <div class="px-4 sm:px-6 py-4 sm:w-auto">
+                        <h3 class="text-lg font-semibold text-gray-800">Seattle</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">$115 / night average</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-indigo-500 hover:text-indigo-400 font-semibold text-xs">Explore
+                                67 properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-6/12 lg:w-4/12 sm:px-2 mb-6">
+                <div class="flex items-stretch h-full rounded-lg bg-white shadow-lg overflow-hidden">
+                    <img class="min-h-full w-32 flex-shrink-0 object-cover object-center" src="/img/colorado.jpg"
+                        alt="Colorado skyline">
+                    <div class="px-4 sm:px-6 py-4 sm:w-auto">
+                        <h3 class="text-lg font-semibold text-gray-800">Colorado</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">$85 / night average</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-indigo-500 hover:text-indigo-400 font-semibold text-xs">Explore
+                                47 properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-6/12 lg:w-4/12 sm:px-2 mb-6">
+                <div class="flex items-stretch h-full rounded-lg bg-white shadow-lg overflow-hidden">
+                    <img class="min-h-full w-32 flex-shrink-0 object-cover object-center" src="/img/Miami.jpg" alt="Beach in Miami">
+                    <div class="px-4 sm:px-6 py-4 sm:w-auto">
+                        <h3 class="text-lg font-semibold text-gray-800">Miami</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">$678 / night average</p>
+                        <div class="mt-4">
+                            <a href="#" class="text-indigo-500 hover:text-indigo-400 font-semibold text-xs">Explore
+                                93 properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="p-8 bg-gray-200 text-center">
+        <p class="m-0 text-gray-800 text-sm">&copy; Copyright 2019 <br class="sm:hidden" /> Designed By <a class="underline hover:no-underline" href="http://umarhamza.com" target="_blank">Umar Hamza</a></p>
+    </div>
+
+
+
+
+</body>
+
+</html>
